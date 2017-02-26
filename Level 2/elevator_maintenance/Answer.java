@@ -53,14 +53,4 @@ public class Answer {
     public static long calcHash(int a, int b, int c, int d) {
         return ((a + 1) * ((long) Math.pow(10, 10))) + ((b + 1) * ((long) Math.pow(10, 7))) + ((c + 1) * ((long) Math.pow(10, 2))) + d;
     }
-
-    public static void main(String[] args) {
-
-        String[] l = {"100.100.100", "100.100.100", "100.100.100"};
-        l = answer(l);
-
-        for (String v : l)
-            System.out.print(v + " ");
-    }
 }
-
